@@ -1,0 +1,304 @@
+* {
+    padding: 0%; margin: 0%;
+    box-sizing: border-box;
+}
+header {
+    background: url(final-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+}
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: roboto, arial;
+    color: black;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px 0px 20px 0px;
+}
+.logo {
+    align-items: center;
+    float: left;
+    text-align: center;
+    display: flex;
+   margin-left: -50px;
+}
+.text {
+    font-size: 20px;
+    font-family: roboto, arial;
+}
+header .social-icons a {
+    color: #CF9CB5;
+}
+.social-icons {
+    display: flex;
+}
+.social-icons svg:hover {
+    color: #b9bcca;
+    cursor: pointer;
+}
+.button-email {
+    padding: 10px 35px 10px 35px;
+    background-color: #c79db2;
+    color: white;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    margin: 0 0 30px 30px;
+}
+/* first section starts here */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right, .left {
+    flex-basis: 50%;
+}
+.left {
+    max-width: 600px;
+}
+.right {
+    max-width: 500px;
+}
+.left h1 {
+    font-size: 70px;
+    font-family: Qwigley;
+    font-weight: 200;
+    margin-bottom: 20px;
+    color: #c79db2;
+    text-align: center
+}
+.left h2 {
+    font-family: 'Cormorant Garamond';
+    font-size: 70px;
+    font-weight: 50;
+    text-align: center
+}
+.left h3 {
+    font-family: roboto;
+    font-size: 20;
+    text-align: center;
+}
+.left p {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 20;
+    text-align: center;
+}
+.right img {
+    width: 100%;
+    height: 100%;
+    margin: 50px 0 0 50px;
+    padding: 20px 0 0 0;
+}
+.left .line {
+        width: 200px;
+        height: 2.2px;
+        background-color: black;
+        margin: 0px 0px 10px 200px;
+}
+.button button {
+    padding: 10px 35px 10px 35px;
+    background-color: #c79db2;
+    color: white;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    margin: 0px 0px 10px 230px;
+
+}
+
+/* second section css starts here */
+.second-section {
+    width: 100%;
+    margin: auto;
+    background: url(bg-1.jpg);
+    padding-top: 100px;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+.container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-1, .left-1 {
+    flex-basis: 50%;
+}
+.left-1 {
+    max-width: 600px;
+}
+.left-1 img {
+        width: 100%;
+        height: 100%;
+        padding: 0px 50px 0px 0px;
+}
+.right-1 {
+    max-width: 550px;
+}
+ .right-1 h1 {
+    font-family: 'Cormorant Garamond';
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #c79db2;
+    text-align: center
+ }
+ .right-1 h2 {
+    font-family: 'Cormorant Garamond';
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center
+ }
+ .right-1 p {
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16;
+    text-align: center;
+    color: #7A7A7A;
+ }
+
+ /* Third section starts from here  */
+
+.Third-section {
+    width: 100%;
+    object-fit: fill;
+    background: url(wriitng-img.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.Third-section .image-arrows {
+    text-align: center;
+    position: absolute;
+   left: 40%;
+   right: 50%;
+    bottom: 0;
+    top: 70%;
+}
+
+/* Forth section starts here */
+
+.container-3 {
+    display: flex;
+    justify-content: center
+}
+.Forth-section {
+    width: 100%;
+    margin: auto;
+    background: url(bg-1.jpg);
+    padding-top: 100px;
+    height: 100vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+.inline-block {
+    display: inline-block;
+    padding: 70px 0 100px 0;
+
+}
+.inline-block .img-1 {
+    width: 400px;
+    object-fit: fill;
+    padding: 0 20px 0 0;
+}
+.inline-block .img-2 {
+    width: 400px;
+    object-fit: fill;
+    padding: 0 20px 0 0;
+}
+.inline-block .img-3 {
+    width: 400px;
+    object-fit: fill;
+    padding: 0 20px 0 0;
+}
+.forth-h1 {
+    font-family:'Cormorant Garamond';
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+    padding: 0 0 0 0;
+}
+
+/* Fifth section starts here */
+.container-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0 90px 0;
+}
+
+.fifth-section {
+    width: 100%;
+    background-color: #3a3f5a;
+    padding-top: 100px;
+}
+.right-5 {
+    max-width: 500px;
+    padding: 0 50px 0 50px; 
+}
+.left-5 {
+    max-width: 100em;
+}
+.right-5 .img-5 {
+    width: 100%;
+    border: 15px solid #b2b5c4;
+}   
+
+.fifth-section .order-list {
+    list-style: none;
+    color: white;
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 30px;
+    display: inline-block;
+}
+
+
+.fifth-section h1 {
+    color: white;
+    font-family:'Cormorant Garamond';
+    font-size: 70px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.fifth-section p {
+    font-size: 18px;
+    font-family: 'roboto';
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    padding: 20px 0 40px 0;
+}
+
+.fifth-section .paragraph {
+    width: 730px;
+    display: inline-block;
+
+}
